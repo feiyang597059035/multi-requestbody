@@ -3,6 +3,7 @@
 为Spring多@RequestBody支持，来解决Controller中POST方式JSON格式请求时
 1. 无法直接用@RequestBody解析基本类型包装类的问题。
 2. 无法使用@RequestBody接收多个实体的问题。
+3.提供从方法上提供自定义注解、从参数上提供自定义注解解决 @RequestBody 需要后台用bean 接受参数 限制
 
 ## 项目优势
 1. 支持通过注解的value指定JSON的key来解析对象。
